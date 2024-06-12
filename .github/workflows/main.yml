@@ -6,6 +6,7 @@ jobs:
   build:
 
     runs-on: windows-latest
+      timeout-minutes: 43200
 
     steps:
     - name: Download
